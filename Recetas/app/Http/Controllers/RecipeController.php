@@ -47,7 +47,7 @@ class RecipeController extends Controller
             'title' => $request->title,
             'content' => $request->content,
             'status' => $request->status ?? 'borrador',
-            'user_id' => 1
+            'user_id' => $request->user()->id,
         ]);
 
         return response()->json($recipe, 201);
