@@ -1,4 +1,4 @@
-# 👨🏻‍🍳 Sistema de Recetas Laravel - Arquitectura Stateless (PHP + React)
+#  Sistema de Recetas Laravel - Arquitectura Stateless (PHP + React)
 
 **Universidad / Proyecto Académico 2026**
 
@@ -8,21 +8,21 @@ Este repositorio contiene una aplicación web completa dividida en dos ecosistem
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El proyecto está separado intencionalmente en dos carpetas principales para mantener una arquitectura limpia:
 
 1. **`backend-recetas/`**:
    Contiene todo el núcleo del servidor. Desarrollado en **PHP Puro** (estilo PDO, MVC) sin frameworks pesados, exponiendo endpoints RESTful. Aquí se gestiona la conexión a MySQL, el enrutador customizado y la firma criptográfica de los JWT.
-   👉 _Para detalles técnicos de la API, lee su [README interno](backend-recetas/README.md)._
+    _Para detalles técnicos de la API, lee su [README interno](backend-recetas/README.md)._
 
 2. **`frontend-recetas/`**:
    Contiene la interfaz de usuario. Desarrollada con **React 18 + Vite** y estilizada con **TailwindCSS**. Consume la API del backend inyectando el token JWT en cada cabecera HTTP utilizando Axios.
-   👉 _Para detalles del diseño UI/UX, lee su [README interno](frontend-recetas/README.md)._
+    _Para detalles del diseño UI/UX, lee su [README interno](frontend-recetas/README.md)._
 
 ---
 
-## 🚀 Despliegue Rápido (Modo Evaluación)
+##  Despliegue Rápido (Modo Evaluación)
 
 Pensando en la facilidad de revisión para docentes y evaluadores, hemos incluido un script de auto-arranque `start.sh` en la raíz del proyecto. Este script se encarga de todo el trabajo pesado.
 
@@ -56,7 +56,7 @@ Todo quedará listo para usar con un solo comando. Presiona `Ctrl+C` en la termi
 
 ---
 
-## 🏛️ Créditos y Autores
+##  Créditos y Autores
 
 Este desarrollo, desde el diseño de la base de datos hasta la estilización minimalista en React, fue construido por:
 

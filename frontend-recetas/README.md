@@ -1,10 +1,10 @@
-# 💅 Frontend | Sistema de Recetas (React + Vite)
+#  Frontend | Sistema de Recetas (React + Vite)
 
 Este es el cliente web que consume la API del Sistema de Recetas (`backend-recetas`). Ha sido diseñado bajo un estricto principio minimalista monocromático, priorizando la claridad visual, los espacios en blanco y una experiencia de usuario sumamente pulida.
 
 ---
 
-## 🏗️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **Librería Principal:** React JS 18.
 - **Empaquetador y Build Server:** Vite.
@@ -15,7 +15,7 @@ Este es el cliente web que consume la API del Sistema de Recetas (`backend-recet
 
 ---
 
-## 🏃🏻‍♂️ Cómo Instalar y Ejecutar (Entorno Local)
+##  Cómo Instalar y Ejecutar (Entorno Local)
 
 Si usted (como profesor o evaluador) está descargando el proyecto por primera vez, siga estos pasos:
 
@@ -37,7 +37,7 @@ Si usted (como profesor o evaluador) está descargando el proyecto por primera v
 
 ---
 
-## 🧠 Arquitectura Frontend (Carpetas Clave)
+##  Arquitectura Frontend (Carpetas Clave)
 
 Todos los desarrollos se encuentran aislados dentro de la subcarpeta `src/`.
 
@@ -76,7 +76,7 @@ api.interceptors.request.use((config) => {
 
 ---
 
-## 📸 Motor de Subidas de Imágenes (Base64)
+##  Motor de Subidas de Imágenes (Base64)
 
 Este Frontend ha erradicado la tradicional -y costosa- carga de binarios pesados (FormData Multipart) para simplificarse y asegurar compatibilidad perpetua. Todas las imágenes subidas por el File Picker en el Frontend se capturan, **se compilan en cadena Base64**, y así viajan directo el BackEnd sin colapsar el File System local del alumno o maestro.
 

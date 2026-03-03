@@ -1,0 +1,15 @@
+{
+    "name": "alan/recetas-api",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Middlewares\\": "middlewares/"
+        }
+    }
+}
